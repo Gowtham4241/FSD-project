@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeThreads - Custom T-Shirts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!--header>
+        <nav>
+            <div class="logo">FusionFit</div>
+            <div class="nav-links">
+                <a href="#" class="home-link">Home</a>
+                <a href="#" class="shop-link">Shop</a>
+                <a href="#">Design Studio</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header-->
+    <header>
+        <nav>
+            <div class="logo">
+                <div class="logo-container">
+                    <img src="https://i.imgur.com/JzVS5bA.png" alt="" class="logo-img">
+                </div>
+                <span>FusionFit</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="home-link">Home</a>
+                <a href="#" class="shop-link">Shop</a>
+                <a href="#">Design Studio</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+    <!-- Homepage with 3 vertical sections -->
+    <div class="homepage-sections" id="homepage">
+        <!-- Superhero Section -->
+        <div class="category-section superhero" data-category="superhero">
+            <img src="https://i.imgur.com/JzVS5bA.jpg" alt="Superhero Collection" class="category-image">
+            <div class="category-content">
+                <h2 class="category-title">Superheroes</h2>
+                <p class="category-description">Channel your inner hero with our exclusive superhero collection featuring Marvel, DC, and more.</p>
+                <button class="explore-btn">Explore Collection</button>
+            </div>
+        </div>
+
+        <!-- Anime Section -->
+        <div class="category-section anime" data-category="anime">
+            <img src="https://i.imgur.com/zYjDZQa.jpg" alt="Anime Collection" class="category-image">
+            <div class="category-content">
+                <h2 class="category-title">Anime</h2>
+                <p class="category-description">Show your anime pride with designs from Naruto, Dragon Ball, Demon Slayer and more.</p>
+                <button class="explore-btn">Explore Collection</button>
+            </div>
+        </div>
+
+        <!-- Sports Section -->
+        <div class="category-section sports" data-category="sports">
+            <img src="https://i.imgur.com/Ln3xYQh.jpg" alt="Sports Collection" class="category-image">
+            <div class="category-content">
+                <h2 class="category-title">Sportstars</h2>
+                <p class="category-description">Celebrate your sports idols with our officially inspired athlete collections.</p>
+                <button class="explore-btn">Explore Collection</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Superhero Products Page -->
+    <div class="products-page" id="superhero-page">
+        <div class="container">
+            <a href="#" class="back-to-home"><i class="fas fa-arrow-left"></i> Back to Home</a>
+            <h2 class="section-title">Superhero Collection</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.imgur.com/JzVS5bA.jpg" alt="Avengers T-shirt" class="front">
+                        <img src="https://i.imgur.com/mXwQ3eZ.jpg" alt="Avengers T-shirt back" class="back">
+                        <span class="badge">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Avengers Assembled Tee</h3>
+                        <div class="product-price">$24.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.imgur.com/pL8XWqj.jpg" alt="Batman T-shirt" class="front">
+                        <img src="https://i.imgur.com/9YQv3hK.jpg" alt="Batman T-shirt back" class="back">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Dark Knight Tee</h3>
+                        <div class="product-price">$22.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.imgur.com/RVQqG0x.jpg" alt="Spider-Man T-shirt" class="front">
+                        <img src="https://i.imgur.com/5bTzLfY.jpg" alt="Spider-Man T-shirt back" class="back">
+                        <span class="badge">Bestseller</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Spider-Verse Tee</h3>
+                        <div class="product-price">$26.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.imgur.com/7jJ8X9L.jpg" alt="Wonder Woman T-shirt" class="front">
+                        <img src="https://i.imgur.com/8kLmJXx.jpg" alt="Wonder Woman T-shirt back" class="back">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Wonder Woman Tee</h3>
+                        <div class="product-price">$23.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Anime Products Page -->
+    <div class="products-page" id="anime-page">
+        <div class="container">
+            <a href="#" class="back-to-home"><i class="fas fa-arrow-left"></i> Back to Home</a>
+            <h2 class="section-title">Anime Collection</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.imgur.com/zYjDZQa.jpg" alt="Naruto T-shirt" class="front">
+                        <img src="https://i.imgur.com/8kLmJXx.jpg" alt="Naruto T-shirt back" class="back">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Naruto Uzumaki Tee</h3>
+                        <div class="product-price">$23.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.imgur.com/3sKvV7j.jpg" alt="Dragon Ball T-shirt" class="front">
+                        <img src="https://i.imgur.com/Jr7WQhB.jpg" alt="Dragon Ball T-shirt back" class="back">
+                        <span class="badge">Popular</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Dragon Ball Z Tee</h3>
+                        <div class="product-price">$25.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.imgur.com/2VtQkXf.jpg" alt="Demon Slayer T-shirt" class="front">
+                        <img src="https://i.imgur.com/9wYJQ2b.jpg" alt="Demon Slayer T-shirt back" class="back">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Demon Slayer Tee</h3>
+                        <div class="product-price">$24.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.imgur.com/5tQvV9j.jpg" alt="One Piece T-shirt" class="front">
+                        <img src="https://i.imgur.com/4mJd9Xx.jpg" alt="One Piece T-shirt back" class="back">
+                        <span class="badge">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">One Piece Crew Tee</h3>
+                        <div class="product-price">$26.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sports Products Page -->
+    <div class="products-page" id="sports-page">
+        <div class="container">
+            <a href="#" class="back-to-home"><i class="fas fa-arrow-left"></i> Back to Home</a>
+            <h2 class="section-title">Sportstars Collection</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.imgur.com/Ln3xYQh.jpg" alt="Messi T-shirt" class="front">
+                        <img src="https://i.imgur.com/7jJ8X9L.jpg" alt="Messi T-shirt back" class="back">
+                        <span class="badge">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Messi Legacy Tee</h3>
+                        <div class="product-price">$27.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.imgur.com/4mJd9Xx.jpg" alt="LeBron T-shirt" class="front">
+                        <img src="https://i.imgur.com/5tQvV9j.jpg" alt="LeBron T-shirt back" class="back">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">LeBron King Tee</h3>
+                        <div class="product-price">$26.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.imgur.com/8kLmJXx.jpg" alt="Serena T-shirt" class="front">
+                        <img src="https://i.imgur.com/zYjDZQa.jpg" alt="Serena T-shirt back" class="back">
+                        <span class="badge">Bestseller</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Serena Queen Tee</h3>
+                        <div class="product-price">$25.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.imgur.com/Jr7WQhB.jpg" alt="Ronaldo T-shirt" class="front">
+                        <img src="https://i.imgur.com/3sKvV7j.jpg" alt="Ronaldo T-shirt back" class="back">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Ronaldo GOAT Tee</h3>
+                        <div class="product-price">$27.99</div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>VibeThreads</h3>
+                <p>Your ultimate destination for custom-designed T-shirts that let you express your fandom in style.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="#" class="shop-superhero">Superhero Collection</a></li>
+                    <li><a href="#" class="shop-anime">Anime Collection</a></li>
+                    <li><a href="#" class="shop-sports">Sports Collection</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Bestsellers</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get updates on new designs and exclusive offers.</p>
+                <form>
+                    <input type="email" placeholder="Your email" style="width: 100%; padding: 0.7rem; margin-bottom: 0.5rem; border-radius: 5px; border: none; background: rgba(255, 255, 255, 0.1); color: white;">
+                    <button type="submit" class="add-to-cart" style="width: 100%;">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2023 VibeThreads. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
