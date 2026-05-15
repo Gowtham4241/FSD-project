@@ -13,12 +13,15 @@ The project features stylish UI animations, category-based product collections, 
 📱 Fully responsive design
 🔄 Dynamic page navigation using JavaScript
 💡 Interactive product cards with front/back image effects
+
+
 🛠️ Technologies Used
 HTML5
 CSS3
 JavaScript (Vanilla JS)
 Font Awesome Icons
 Google Fonts
+
 📂 Project Structure
 FusionFit/
 │
@@ -26,6 +29,7 @@ FusionFit/
 ├── styles.css      # Styling and animations
 ├── script.js       # Website functionality
 └── README.md
+
 📸 Website Sections
 🏠 Homepage
 Interactive category sections
@@ -52,15 +56,11 @@ Includes animation effects for better UX
 Responsive Design
 
 The website adapts perfectly for:
-
 Desktop devices
 Tablets
 Mobile screens
-📷 Preview
 
-Add screenshots of your project here.
 
-![Homepage Screenshot](image-link)
 ⚡ How to Run the Project
 Clone the repository
 git clone https://github.com/your-username/FusionFit.git
@@ -68,6 +68,8 @@ Open the project folder
 cd FusionFit
 Run the project
 Open index.html in your browser
+
+
 🌟 Future Improvements
 User authentication
 Product search functionality
